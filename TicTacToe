@@ -16,7 +16,7 @@ def display_board(board):
     print('   |   |')
 
 def player_input():
-    marker = ''
+    marker = '  '
     
     while not (marker == 'X' or marker == 'O'):
         marker = input('Player 1: Do you want to be X or O? ').upper()
